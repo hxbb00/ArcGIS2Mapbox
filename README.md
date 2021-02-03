@@ -43,6 +43,10 @@ On Windows, a version of tippecanoe must be specially compiled from its source c
     `python -m ensurepip`
 
     in the Cygwin terminal.
+    
+    ImportError: No module named site on Windows
+    solved it by exporting PYTHONHOME=/usr/ and PYTHONPATH=/usr/lib/python2.7
+    
 6. Clone the tippecanoe source code from Github, by entering:
 
     `git clone https://github.com/mapbox/tippecanoe.git`
